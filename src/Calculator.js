@@ -11,9 +11,10 @@ class Calculator extends React.Component {
   }
 
   render() {
+    const {result, num1, num2} = this.state
     return (
       <div>
-        <h1>Time for math!</h1>
+        <h1>Result: {result}</h1>
       </div>
     );
   }
